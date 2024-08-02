@@ -9,7 +9,7 @@ year, Mean_Anomaly, ssp_585= np.loadtxt('UR_ano.txt', unpack=True,skiprows=3)
 fig = plt.figure()
 ax = fig.add_subplot(111)
 
-# Plot ages with male or female symbols as markers
+# Plot markers
 ax.plot(year, ssp_585, marker='o', markersize=4, c='#FBF5DF', lw=1.5,
         mfc='#FBF5DF', mec='#FBF5DF')
 ax.plot(year, Mean_Anomaly, c='#C60C30', lw=3,
